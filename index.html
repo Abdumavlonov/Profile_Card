@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card">
+
+        <div class="card__user-pic">
+            <img src="Cover.jpg" alt="user pic">
+        </div>
+
+        <h1 class="heading">
+            <span class="heading--sup">Abdumavlonov</span>
+            <span class="heading--sub">Web and Mobile dev</span>
+        </h1>
+
+        <div class="btns">
+            <a href="programmingacc6@gmail.com" class="btn btn--msg">Habar</a>
+            <a href="https://www.instagram.com/invites/contact/?i=mw3jj9obm5po&utm_content=md0z2nw" class="btn btn--follow">Obuna bo'lish</a>
+        </div>
+
+        <div class="info">
+            <p>
+                <span>Obunalar</span>
+                <span>200</span>
+            </p>
+            <p>
+                <span>Obunachilar</span>
+                <span>300</span>
+            </p>
+            <p>
+                <span>Post</span>
+                <span>149</span>
+            </p>
+        </div>
+
+    </div>
+
+     
+
+
+   
+
+    <script>
+        const btnOk = document.querySelector('.the-blood-coders__ok-btn');
+
+        btnOk.addEventListener('click', (e) => {
+            e.target.closest('.the-blood-coders__backdrop').remove();
+        });
+    </script>
+
+
+</body>
+</html>
